@@ -1,113 +1,91 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8"></head>
-        <title>Leandro Rubiano Portfolio</title>
-        <ul>
-            <li>
-                <a href="index.html">Inicio</a> 
-            </li>    
-            <li>
-                <a href="contacto.html">Contacto</a> 
-            </li>         
-        </ul>
+        <title>My Portfolio</title>        
+        <link rel="stylesheet" href="css/styles.css">  
     </head>
-    <body>
-        <h1>Pagina de Inicio</h1>
-        <h2>Eder Leandro Rubiano</h2>
-        <h3>BlockChain Developer</h3>
-        <p>Solida experiencia desarrollando Contratos inteligentes</p>
-        <p>con solidity</p>
-        <hr>
-        <h3>Tech Stack</h3>
-        <ol>
-            <li>Solidity</li>
-            <li>Truffle</li>
-            <li>JavaScript</li> 
-            <li>Ethereum</li>
-        </ol>
+    <body>        
+        <div id="header">
+            <header>  
+                <nav>                
+                    <ul>                        
+                        <li>
+                            <a class="selected" href="index.html">Home</a> 
+                        </li>    
+                        <li>
+                            <a href="portfolio.html">PortFolio</a> 
+                        </li> 
+                        <li>
+                            <a href="about.html">About</a> 
+                        </li>              
+                        <li> 
+                            <a href="testimonials.html">Testimonials</a>
+                        </li>  
+                        <li> 
+                            <a href="articles.html">Articles</a>
+                        </li>                 
+                    </ul>                                
+                </nav>  
+                <img width="150px" src="img/Truffle.png" alt="Truffle">              
+            </header>
+        </div> 
+        
 
-        <h3>Tech Stacks</h3>
-        <img width="150px" src="https://solidity-es.readthedocs.io/es/latest/_images/logo.svg" alt="Solidity">
-        <img width="150px" src="img/Truffle.png" alt="Truffle">
-        <img width="150px" src="img/Javascript.png" alt="JavaScript">
-        <img width="150px" src="img/Ethereum.jpg" alt="Ethereum">
-        <hr>
-        <h3>Esta es una tabla</h3>
-        <table border="1">
-            <tr>
-                <td>Nombre</td>
-                <td>Apellidos</td>
-                <td>Web</td>
-            </tr>
-            <tr>
-                <td>Eder</td>
-                <td>Rubiano</td>
-                <td>google.com</td>
-            </tr>
-        </table>
-        <hr>
-        <form >
-            <label>Nombre</label>
-            <input type="text"><br/>
+        <!--<section></section>
+                <footer></footer>
+                <h1>Pagina de Inicio</h1>
+                <h2>Eder Leandro Rubiano</h2>
+                <h3>BlockChain Developer</h3>
+                <p>Solida experiencia desarrollando Contratos inteligentes</p>
+                <p>con solidity</p>
+                <hr>
+                <h3>Tech Stack</h3>
+                <ol>
+                    <li>Solidity</li>
+                    <li>Truffle</li>
+                    <li>JavaScript</li> 
+                    <li>Ethereum</li>
+                </ol>
 
-            <label>Apellido</label>
-            <input type="text"><br/>
+                <h3>Tech Stacks</h3>
+                <img width="150px" src="https://solidity-es.readthedocs.io/es/latest/_images/logo.svg" alt="Solidity">
+                <img width="150px" src="img/Truffle.png" alt="Truffle">
+                <img width="150px" src="img/Javascript.png" alt="JavaScript">
+                <img width="150px" src="img/Ethereum.jpg" alt="Ethereum">
+                <hr>
+                <h3>Esta es una tabla</h3>
+                <table border="1">
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Apellidos</td>
+                        <td>Web</td>
+                    </tr>
+                    <tr>
+                        <td>Eder</td>
+                        <td>Rubiano</td>
+                        <td>google.com</td>
+                    </tr>
+                </table>
+                <hr>
+                <form >
+                    <label>Nombre</label>
+                    <input type="text"><br/>
 
-            <label>email</label>
-            <input type="email"><br/>
-        </form>
+                    <label>Apellido</label>
+                    <input type="text"><br/>
 
-        <hr>
+                    <label>email</label>
+                    <input type="email"><br/>
+                </form>
 
-        <select>
-            <option value="Hombre">Hombre</option>
-            <option value="Mujer">Mujer</option>
-        </select>
-        <input type="sumbit" value="Enviar">
+                <hr>
+
+                <select>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+                <input type="sumbit" value="Enviar">
+            -->      
     </body>
-
-
-</html>
--->
-
-<!DOCTYPE html> 
-<html class="no-js" lang="en"> 
-    <head> 
-        <meta charset="utf-8" /> 
-        <title>Our first responsive web page with HTML5 and CSS3</title> 
-        <meta 
-            name="description" 
-            content="A basic responsive web page – an example from Chapter 1" 
-        /> 
-        <link rel="stylesheet" href="css/styles.css" /> 
-    </head> 
-    <body> 
-        <div class="Header"> 
-            <a href="/" class="LogoWrapper" 
-                ><img src="img/SOC-Logo.png" alt="Scone O'Clock logo" 
-            /></a> 
-            <h1 class="Strap">Scones: the most resplendent of snacks</h1> 
-        </div> 
-        <div class="IntroWrapper"> 
-            <h2 class="IntroText"> 
-                Occasionally maligned and misunderstood; the scone is a 
-                quintessentially British classic. 
-            </h2> 
-            <div class="MoneyShot"> 
-                <p class="ImageCaption"> 
-                    Incredible scones, picture from Wikipedia 
-                </p> 
-            </div> 
-        </div> 
-        <p>Recipe and serving suggestions follow.</p> 
-        <div class="Ingredients"> 
-            <h3 class="SubHeader">Ingredients</h3> 
-            <ul></ul> 
-        </div> 
-        <div class="HowToMake"> 
-            <h3 class="SubHeader">Method</h3> 
-            <ol class="MethodWrapper"></ol> 
-        </div> 
-    </body> 
 </html>
